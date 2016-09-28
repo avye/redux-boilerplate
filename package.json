@@ -1,0 +1,22 @@
+{
+  "name": "redux-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for a web redux app",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avye/redux-boilerplate.git"
+  },
+  "author": "Andrew Vye",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0"
+  }
+}
