@@ -10,7 +10,7 @@ import Store from './store/configureStore.js';
 var store = Store();
 const history = syncHistoryWithStore(browserHistory, store);
 
-render(
+const Render = () => render(
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={Root}>
@@ -19,3 +19,5 @@ render(
   </Provider>,
   document.getElementById('root')
 )
+
+Render();
